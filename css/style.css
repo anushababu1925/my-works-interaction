@@ -1,0 +1,138 @@
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Set white background with opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  .loading-bar {
+    width: 80%; /* Adjust width as needed */
+    height: 10px;
+    background-color: #fff; /* Set white background */
+  }
+  
+  .loading-progress {
+    width: 0;
+    height: 100%;
+    background-color: orange; /* Set orange color for the loading bar */
+    transition: width 0.2s ease-in-out;
+  }
+  .logo {
+      background: white;
+      width: 70px;
+      height: 109.09px;
+     background-image: url("../images/logo-black.png");
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: cover;
+      padding-left: 100px;
+  }
+  .navbar {
+      display:flex;
+      background-color:white; /* Set background color */
+      padding: 20px; /* Add some padding */
+      
+  }
+  .nav-items-right {
+      padding-top: 10px;
+      list-style-type: none; /* to Remove bullet points */
+      height: 60px;
+   
+      display: flex;
+      justify-content: right;
+      align-items: right;
+      width: 90%;
+    }
+    .nav-items-right li {
+      padding: 20px;
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+      display: inline-block; /* Display items horizontally */
+      margin-right: 50px; /* Add some spacing between items */
+    }
+    .nav-items-right li a {
+      font-family:  montserrat;
+      font-weight: 400;
+      text-decoration: none; /* Remove underline */
+       color: rgb(0, 0, 0);
+    }
+    .nav-items li a:hover {
+      color: brown; /* Set the font color on hover */
+    }/*it's not working*/
+  
+  /* Add the same styles for the hero section as in the main page */
+  .hero-banner h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 128px;
+      color: #696868;
+      margin-bottom: 40px;
+      padding-left: 30px;
+      margin-left: 180px;
+    }
+    
+    .hero-banner h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 32px;
+      color: #353535;
+      margin-top: 0;
+      margin-bottom: 0px;
+      padding-left: 35px;
+    }
+    
+    /* Add styles for the rest of the content as per your design preferences */
+    /* Add additional sections, images, and works content here */
+    
+    /* Styles for the work boxes */
+    .work-box-container {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 180px;
+      margin-right: 180px;
+    }
+    
+    .work-box {
+      /* Styles for the work boxes */
+      width: 590px;
+      font-family: 'Montserrat', sans-serif;
+      height: 450px;
+      border-radius: 18px;
+      background-color: #D9D9D9;
+      padding: 20px;
+      
+    }
+    
+    .work-box:not(:last-child) {
+      margin-right: 52px;
+    }
+    
+    .work-box-3 {
+      width: 1105px; /* Adjust as needed */
+      height: 450px; /* Adjust as needed */
+      margin-top: 52px; /* Add spacing between Work 2 and Work 3 */
+      margin-left: 180px;
+    }
+    .footer {
+      background-color: #f2f2f2;
+      padding: 20px 170px;
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 40px;
+    }
+    
+    .footer h3 a {
+      margin-right: 20px;
+      color: inherit;
+      text-decoration: none;
+    }
+    
+    .footer p {
+      margin-top: 10px;
+      color: #808080;
+    }
